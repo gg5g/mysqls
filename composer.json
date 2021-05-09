@@ -2,7 +2,7 @@
     "name": "yunmainet/mysqls",
     "description": "一个简单PDO mysql数据库操作类",
     "license":"MIT",
-    "version":"1.0",
+    "version":"1.7",
     "keywords" : [ "php", "mysql" ],
     "authors": [
         {
