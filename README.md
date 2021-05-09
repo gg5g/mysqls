@@ -4,7 +4,7 @@
 - pdo
 
 ## 安装
-1. composer 安装 ``` composer require yunmainet/mysql ```
+1. composer 安装 ``` composer require yunmainet/mysqls ```
 2. 引入/vendor目录下的autoload.php ``` require 'vendor/autoload.php'; ```
 
 ## 初始化
@@ -21,7 +21,7 @@ function db($table='null'){
     static $_db;
     global $config;
     if(!$_db){
-        $_db=new \yunmainet\mysql\mysql($config);
+        $_db=new \yunmainet\mysqls\mysql($config);
     }
     return $_db->table($table);
 }
